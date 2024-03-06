@@ -1,0 +1,18 @@
+appname = smartwebhook
+httpport = 8080
+runmode = dev
+sessionon = true
+sessionname = smart_webhook_id
+copyrequestbody = true
+
+#时区设置
+timezone = Asia/Shanghai
+
+#数据库配置
+db_host=127.0.0.1
+db_port=3306
+db_database=webhook_db
+db_username=root
+db_password=123456
+
+queue_size=50
